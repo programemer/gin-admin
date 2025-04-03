@@ -1,6 +1,6 @@
 package entity
 
-import "gin-adminn/global"
+import "github.com/programemer/gin-admin/global"
 
 // 导出模板 结构体  SysExportTemplate
 type SysExportTemplate struct {

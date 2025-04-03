@@ -1,6 +1,6 @@
 package entity
 
-import "gin-adminn/config"
+import "github.com/programemer/gin-admin/config"
 
 // 配置文件结构体
 type System struct {

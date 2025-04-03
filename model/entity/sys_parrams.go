@@ -1,6 +1,6 @@
 package entity
 
-import "gin-adminn/global"
+import "github.com/programemer/gin-admin/global"
 
 // 参数 结构体  SysParams
 type SysParams struct {

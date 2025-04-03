@@ -1,9 +1,9 @@
 package entity
 
 import (
-	"gin-adminn/global"
-	"gin-adminn/model/common"
 	"github.com/google/uuid"
+	"github.com/programemer/gin-admin/global"
+	"github.com/programemer/gin-admin/model/common"
 )
 
 type Login interface {

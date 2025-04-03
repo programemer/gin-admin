@@ -1,7 +1,7 @@
 package internal
 
 import (
-	"gin-adminn/global"
+	"github.com/programemer/gin-admin/global"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"os"

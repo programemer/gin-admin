@@ -1,6 +1,6 @@
 package entity
 
-import "gin-adminn/global"
+import "github.com/programemer/gin-admin/global"
 
 type SysBaseMenuBtn struct {
 	global.GVA_MODEL

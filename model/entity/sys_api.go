@@ -1,6 +1,6 @@
 package entity
 
-import "gin-adminn/global"
+import "github.com/programemer/gin-admin/global"
 
 type SysApi struct {
 	global.GVA_MODEL

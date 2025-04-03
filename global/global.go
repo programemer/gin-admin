@@ -1,8 +1,8 @@
 package global
 
 import (
-	"gin-adminn/config"
-	"gin-adminn/utils/timer"
+	"github.com/programemer/gin-admin/config"
+	"github.com/programemer/gin-admin/utils/timer"
 	"github.com/qiniu/qmgo"
 	"github.com/redis/go-redis/v9"
 	"github.com/spf13/viper"

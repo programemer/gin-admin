@@ -1,6 +1,6 @@
 package entity
 
-import "gin-adminn/global"
+import "github.com/programemer/gin-admin/global"
 
 // 如果含有time.Time 请自行import time包
 type SysDictionaryDetail struct {

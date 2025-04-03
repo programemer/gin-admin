@@ -1,7 +1,7 @@
 package entity
 
 import (
-	"gin-adminn/global"
+	"github.com/programemer/gin-admin/global"
 	"gorm.io/gorm"
 	"os"
 	"path"
