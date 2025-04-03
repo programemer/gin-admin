@@ -1,6 +1,9 @@
 package request
 
-import "github.com/programemer/gin-admin/model/entity"
+import (
+	common "github.com/programemer/gin-admin/model/common/request"
+	"github.com/programemer/gin-admin/model/entity"
+)
 
 type SysAutoHistoryCreate struct {
 	Table            string            // 表名
@@ -35,4 +38,20 @@ func (r *SysAutoHistoryCreate) Create() entity.SysAutoCodeHistory {
 		entity.Table = r.StructName
 	}
 	return entity
+}
+
+type SysAutoHistoryRollBack struct {
+	common.GetById
+	DeleteApi   bool `json:"deleteApi" form:"deleteApi"`     // 是否删除接口
+	DeleteMenu  bool `json:"deleteMenu" form:"deleteMenu"`   // 是否删除菜单
+	DeleteTable bool `json:"deleteTable" form:"deleteTable"` // 是否删除表
+}
+
+func (s SysAutoHistoryRollBack) ApiIds(entity entity.SysAutoCodeHistory) common.IdsReq {
+	length := len(entity.ApiIDs)
+	ids := make([]int, 0)
+	for i := 0; i < length; i++ {
+		ids = append(ids, int(entity.ApiIDs[i]))
+	}
+	return common.IdsReq{Ids: ids}
 }
