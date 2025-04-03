@@ -15,6 +15,6 @@ type BaseClaims struct {
 	UUID        uuid.UUID
 	ID          uint
 	Username    string
-	Nickname    string
-	AuthorityId string
+	NickName    string
+	AuthorityId uint
 }

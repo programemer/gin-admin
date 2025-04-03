@@ -7,8 +7,8 @@ import (
 )
 
 type Login interface {
-	GetUserName() string
-	GetNickName() string
+	GetUsername() string
+	GetNickname() string
 	GetUUID() uuid.UUID
 	GetUserId() uint
 	GetAuthorityId() uint
