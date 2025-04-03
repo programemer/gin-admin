@@ -1,4 +1,4 @@
-module gin-adminn
+module github.com/programemer/gin-admin
 
 go 1.24
 

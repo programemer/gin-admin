@@ -2,6 +2,7 @@ package global
 
 import (
 	"gin-adminn/config"
+	"gin-adminn/utils/timer"
 	"github.com/qiniu/qmgo"
 	"github.com/redis/go-redis/v9"
 	"github.com/spf13/viper"
