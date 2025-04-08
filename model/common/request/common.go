@@ -38,7 +38,7 @@ type IdsReq struct {
 }
 
 type GetAuthorityId struct {
-	AuthorityId string `json:"authorityId" form:"authorityId"`
+	AuthorityId uint `json:"authorityId" form:"authorityId"`
 }
 
 type Empty struct {
