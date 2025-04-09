@@ -3,6 +3,7 @@ package middleware
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/programemer/gin-admin/model/common/response"
+	"github.com/programemer/gin-admin/service"
 	"github.com/programemer/gin-admin/utils"
 )
 
